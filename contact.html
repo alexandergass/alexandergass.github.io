@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Blog</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="./css/index.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <!-- Libraries -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/1.8.0/jquery.textcomplete.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $("body").css("display", "none");
+     
+        $("body").fadeIn(2000);
+     
+        $("a.transition").click(function(event){
+            event.preventDefault();
+            linkLocation = this.href;
+            $("body").fadeOut(1000, redirectPage);      
+        });
+             
+        function redirectPage() {
+            window.location = linkLocation;
+        }
+    });
+    </script>
+</head>
+
+    <!-- NAV CONTAINER -->
+    <nav class="navbar navbar-expand-md navbar-dark static-top">
+      <!-- <a class="navbar-brand" href="#">Alex Gass</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="homenav">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <!-- <li class="aboutnav">
+            <a class="nav-link" href="./about.html">About</a>
+          </li> -->
+          <li class="projectsnav">
+            <a class="nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="contactnav">
+            <a class="nav-link" href="./contact.html" style="color: #06bc9b !important">Contact</a>
+          </li>          
+        </ul>
+    </div>
+  </nav>
+
+<body>
+
+<!-- Page Content -->
+
+<div id="contact" style="margin-top: -56px">
+    <!-- Single Slide -->
+    <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(./webbackblank.jpg); height: 250px">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <!-- Welcome Text -->
+              
+                <div class="col-12 col-lg-8 col-xl-6">
+                    <div class="welcome-text">
+                        <h2 class="animated bounceInDown" data-delay="900ms">Contact Information</h2>
+
+                    </div>
+                </div>
+            
+        </div>
+      </div>
+    </div>
+
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="./mapsydney.jpg" class="img-responsive" style="width:100%; padding-left: 45px;margin: auto; margin-right: 0px; text-align: left" alt="Image">
+            </div>
+
+            <div class="col-sm-4" style="padding-left: 45px;margin: auto; margin-right: 0px; margin-left: 0px; text-align: left">
+              <div class="well">
+                <p>Alex Gass</p>
+              </div>
+              <div class="well">
+                  <p>Sydney, Nova Scotia, Canada</p>
+              </div>
+              <div class="well">
+                  <p>902-595-0830</p>
+              </div>
+              <div class="well">
+                  <p>alexander_gass@hotmail.com</p>
+              </div>
+            </div>
+        </div>
+
+        <br><br>
+    <!--Section: Contact v.2-->
+    <section id="row0" class="mb-4" style="padding-left: 15px">
+
+        <!--Section description-->
+        <p class="text-left w-responsive mx-auto mb-5 padding-left: 15px" style="padding-left: 15px">Do you have any questions? Please do not hesitate to contact me directly. I will come back to you within
+            a matter of hours to help you.</p>
+           
+            <!--Grid column-->
+            <div class="col-md-12 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <p for="name" class="">Your name</p>
+                            </div>
+                        </div>
+                      </div>
+                        <!--Grid column-->
+                        
+                      <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <p for="email" class="">Your email</p>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <p for="subject" class="">Subject</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <p for="message">Your message</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+    </div>
+
+</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="./js/scrolla.jquery.min.js"></script>
+
+<br><br>
+<footer class="container-fluid" >
+    <ul>
+        <li class="homenav" >
+            <a href="./home.html">Home</a>
+          </li>
+          <!-- <li class="aboutnav">
+            <a href="./about.html">About</a>
+          </li> -->
+          <li class="projectsnav">
+            <a href="./projects.html">Projects</a>
+          </li>
+          <li class="contactnav">
+            <a href="./contact.html">Contact</a>
+          </li>
+    </ul>
+
+    <ul>
+        <li class="homenav" >
+          <a href="http://www.linkedin.com"><img src="./social1.png"></a>
+        </li>
+        <li class="homenav" >
+            <a href="http://www.instagram.com"><img src="./social2.png"></a>
+        </li>
+        <li class="homenav" >
+          <a href="http://www.github.com"><img src="./social3.png"></a>
+        </li>
+        <!-- <li class="homenav" >
+          <a href="http://www.youtube.com"><img src="./social4.png"></a>
+        </li> -->
+    </ul>
+
+</footer>
+</html>

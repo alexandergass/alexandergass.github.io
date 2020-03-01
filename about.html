@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Blog</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="./css/index.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <!-- Libraries -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/1.8.0/jquery.textcomplete.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $("body").css("display", "none");
+     
+        $("body").fadeIn(2000);
+     
+        $("a.transition").click(function(event){
+            event.preventDefault();
+            linkLocation = this.href;
+            $("body").fadeOut(1000, redirectPage);      
+        });
+             
+        function redirectPage() {
+            window.location = linkLocation;
+        }
+    });
+    </script>
+
+</head>
+
+    <!-- NAV CONTAINER -->
+    <nav class="navbar navbar-expand-md navbar-dark static-top">
+      <!-- <a class="navbar-brand" href="#">Alex Gass</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="homenav">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="aboutnav">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="projectsnav">
+            <a class="nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="contactnav">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>          
+        </ul>
+    </div>
+  </nav>
+
+<body>
+
+<!-- Page Content -->
+
+<div id="about" style="margin-top: -56px">
+    <!-- Single Slide -->
+    <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(./webbackblank.jpg); height: 250px">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <!-- Welcome Text -->
+              
+                <div class="col-12 col-lg-8 col-xl-6">
+                    <div class="welcome-text">
+                        <h2 class="animated bounceInDown" data-delay="900ms">About Me</h2>
+
+                    </div>
+                </div>
+            
+        </div>
+      </div>
+    </div>
+
+<div id="test1">
+      <br><br>
+
+      <div class="row">
+          <div class="col-sm-6">
+            <img src="./aboutme.jpg" class="animated bounceInDown" data-delay="900ms" style="width:100%; height:100%" alt="Image">
+            <br /><br />
+        </div>
+        <div class="col-sm-4" style="margin-top:auto; margin-bottom: auto; text-align:left">
+           
+              <h3 class="animated bounceInDown" style="color: black; font-weight: 700;">Hello, my name is Alex Gass</h3>
+     
+                <p class="animated bounceInDown"  style="font-weight: 450">I am an Web Developer located in Sydney, Nova Scotia.
+                </p>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<br><br>
+<footer class="container-fluid" >
+    <ul>
+        <li class="homenav" >
+            <a href="./home.html">Home</a>
+          </li>
+          <!-- <li class="aboutnav">
+            <a href="./about.html">About</a>
+          </li> -->
+          <li class="projectsnav">
+            <a href="./projects.html">Projects</a>
+          </li>
+          <li class="contactnav">
+            <a href="./contact.html">Contact</a>
+          </li>
+    </ul>
+
+    <ul>
+        <li class="homenav" >
+          <a href="http://www.linkedin.com"><img src="./social1.png"></a>
+        </li>
+        <li class="homenav" >
+            <a href="http://www.instagram.com"><img src="./social2.png"></a>
+        </li>
+        <li class="homenav" >
+          <a href="http://www.github.com"><img src="./social3.png"></a>
+        </li>
+        <!-- <li class="homenav" >
+          <a href="http://www.youtube.com"><img src="./social4.png"></a>
+        </li> -->
+    </ul>
+
+</footer>
+</html>

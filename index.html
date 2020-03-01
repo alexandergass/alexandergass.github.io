@@ -1,0 +1,230 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Blog</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="./css/index.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <!-- Libraries -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/1.8.0/jquery.textcomplete.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $("body").css("display", "none");
+     
+        $("body").fadeIn(2000);
+     
+        $("a.transition").click(function(event){
+            event.preventDefault();
+            linkLocation = this.href;
+            $("body").fadeOut(1000, redirectPage);      
+        });
+             
+        function redirectPage() {
+            window.location = linkLocation;
+        }
+    });
+    </script>
+
+</head>
+
+    <!-- NAV CONTAINER -->
+    <nav class="navbar navbar-expand-md navbar-dark static-top" >
+      <!-- <a class="navbar-brand" href="#">Alex Gass</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="homenav">
+            <a class="nav-link" href="./index.html" style="color: #06bc9b !important">Home</a>
+          </li>
+          <!-- <li class="aboutnav">
+            <a class="nav-link" href="./about.html">About</a>
+          </li> -->
+          <li class="projectsnav">
+            <a class="nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="contactnav">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>          
+        </ul>
+    </div>
+  </nav>
+
+<body>
+
+<!-- Page Content -->
+
+<div id="home" style="margin-top: -56px">
+  <!-- <img src="./webbackhome.jpg" style="width: 100%;"> -->
+    <!-- Single Slide -->
+    <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(./webbackblank.jpg);">
+      <div class="container h-100">
+          <div class="row h-100 align-items-center">
+              <!-- Welcome Text -->
+            
+              <div class="col-12 col-lg-8 col-xl-6">
+                  <div class="welcome-text">
+                      <h2 class="animated bounceInDown" >Welcome! <br>My name is Alex</h2>
+                      <p class="animated bounceInDown" ><br>I am a junior web developer located in Sydney, Nova Scotia. Feel free to contact me for a consultation.</p>
+                      <div id="mail" class="animated bounceInDown">                          
+                          <a class="hero-mail-contact" href="mailto:alexander_gass@hotmail.com">alexander_gass@hotmail.com</a>
+                      </div>
+                  </div>
+              </div>
+          
+      </div>
+    </div>
+  </div>
+  
+
+<div id="test1">
+    <br><br>
+  
+    <div class="row">
+        <div class="col-sm-6">
+          <img src="./aboutme.jpg" id="img1" style="width:100%; height:100%;" alt="Image">
+          
+      </div>
+      <div class="col-sm-4" style="margin-top:auto; margin-bottom: auto; text-align:left">
+         
+            <h3 style="color: black; font-weight: 700;">Testiomonials <br><br></h3>
+   
+              <p style="font-weight: 450">"Very professional and knows what he's doing!"
+              </p>
+              
+              <p style="font-weight: 700;">-Bill Gates
+              </p>
+
+              <br>
+              <p style="font-weight: 450">"Creative and easy to work with"
+                </p>
+                <p style="font-weight: 700;">-Tim Cook
+                </p>
+
+                <br>
+                <p style="font-weight: 450">"A pleasure to work with!"
+                  </p>
+                  <p style="font-weight: 700;">-Mark Zuckerber
+                  </p>
+  
+        </div>
+    </div>
+  </div>
+<br><br>  
+
+<div id="row0" class="container-fluid">
+
+  <h3 style="padding-left: 30px">What I Do</h3><br>
+  <div id="row1"class="row">
+
+    <div class="col-sm-3">
+      <img src="./skill1.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.1s">
+      <p>HTML</p>
+    </div>
+
+    <div class="col-sm-3"> 
+        <img src="./skill2.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.3s">
+      <p>JavaScript</p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="./skill5.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.5s">
+      <p>Photoshop</p>    
+    </div>
+    <div class="col-sm-3"> 
+        <img src="./skill6.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.7s">
+      <p>Java</p>    
+    </div>
+  </div>
+
+  <div id="row2" class="row">
+      <div class="col-sm-3"> 
+        <img src="./skill3.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.1s">
+          <p>CSS</p>    
+        </div>
+        <div class="col-sm-3"> 
+        <img src="./skill4.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.3s">
+          <p>PHP</p>    
+        </div>
+        <div class="col-sm-3"> 
+        <img src="./skill7.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.5s">
+            <p>Laravel</p>    
+          </div>
+          <div class="col-sm-3"> 
+            <img src="./skill8.jpg" style="width:200px; height: 200px" alt="Image" class="animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.7s">
+            <p>Bootstrap</p>    
+          </div>
+    </div>
+</div>
+
+    <br><br>
+
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="./js/scrolla.jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function ($) {
+          $('.animate').scrolla();
+          });
+    </script>
+  </body>
+
+  <br><br>
+  <footer class="container-fluid" >
+      <ul>
+          <li class="homenav" >
+            <a href="./home.html">Home</a>
+          </li>
+          <!-- <li class="aboutnav">
+            <a href="./about.html">About</a>
+          </li> -->
+          <li class="projectsnav">
+            <a href="./projects.html">Projects</a>
+          </li>
+          <li class="contactnav">
+            <a href="./contact.html">Contact</a>
+          </li>
+      </ul>
+
+      <ul>
+          <li class="homenav" >
+            <a href="http://www.linkedin.com"><img src="./social1.png"></a>
+          </li>
+          <li class="homenav" >
+              <a href="http://www.instagram.com"><img src="./social2.png"></a>
+          </li>
+          <li class="homenav" >
+            <a href="http://www.github.com"><img src="./social3.png"></a>
+          </li>
+          <!-- <li class="homenav" >
+            <a href="http://www.youtube.com"><img src="./social4.png"></a>
+          </li> -->
+      </ul>
+
+  </footer>
+</html>
