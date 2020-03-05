@@ -186,6 +186,14 @@ a {
   color: white !important;
 }
 
+.hyper-link {
+    color: #06bc9b;
+}
+
+.hyper-link:hover {
+    
+}
+
 .navbar-brand:hover {
   color: #06bc9b !important;
 }
