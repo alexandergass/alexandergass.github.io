@@ -20,7 +20,7 @@ footer {
     padding: auto !important;
   }
     
-  .welcome-text {
+  #home .welcome-text {
      margin-top: -100px !important;
   }
 
