@@ -396,3 +396,8 @@ label {
 .mb-5, .my-5 {
   margin-bottom: 1rem!important;
 }
+
+a[href^=tel] {
+   text-decoration:inherit;
+   color: inherit;
+}
